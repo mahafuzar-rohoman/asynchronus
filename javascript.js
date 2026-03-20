@@ -170,6 +170,7 @@ randomUser()
 // }
 
 
+//TODO api real project practice 
 const contender = document.querySelector(".continer")
 
 function randomApi () {
@@ -189,7 +190,7 @@ function randomApi () {
                 font-family:sans-serif;
             ">
                 <img src="${user.picture.medium}" 
-                     style="border-radius:50%; width:100px; height:100px;" />
+                     style="border-radius:50%; width:100px; height:100px;"/>
 
                 <h2>${user.name.first} ${user.name.last}</h2>
 
@@ -204,4 +205,7 @@ function randomApi () {
     })
 }
 
-randomApi()
+randomApi() 
+
+
+//xamlHTTP api request  
